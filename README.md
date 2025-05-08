@@ -56,8 +56,13 @@ chmod +x hexo2hugo.py
 
 ```
 参数说明：
+
 --src：Hexo 文章目录（./hexo/source/_posts）。
+
 --dest：Hugo 内容目录（./hugo/content/posts）。--static-src：Hexo 静态资源目录（./hexo/source，包含 images/ 等）。
+
 --static-dest：Hugo 静态目录（./blog/static）。
+
 --remove-date-from-name：移除文件名日期前缀。
+
 --verbose：详细日志。
