@@ -43,6 +43,9 @@ hugo new site hugo
 
 下载及一键转移
 
+!!!注意下面运行文件文件目录名安装自己的修改
+
+
 ```
 wget https://raw.githubusercontent.com/pzb568/hexo2hugo/refs/heads/master/hexo2hugo.py
 chmod +x hexo2hugo.py
@@ -64,3 +67,6 @@ chmod +x hexo2hugo.py
 --remove-date-from-name：移除文件名日期前缀。
 
 --verbose：详细日志。
+
+
+
