@@ -47,13 +47,11 @@ hugo new site hugo
 wget https://raw.githubusercontent.com/pzb568/hexo2hugo/refs/heads/master/hexo2hugo.py
 chmod +x hexo2hugo.py
 ./hexo2hugo.py \
-    --src=./hexoblog/source/_posts \
-    --dest=./blog/content/posts \
-    --static-src=./hexoblog/source \
-    --static-dest=./blog/static \
-    --remove-date-from-name \
-    --verbose
-
+  --src=./hexoblog/source/_posts \
+  --dest=./blog/content/posts \
+  --static-src=./hexoblog/source \
+  --static-dest=./blog/static \
+  --remove-date-from-name 
 ```
 参数说明：
 
